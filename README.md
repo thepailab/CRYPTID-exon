@@ -13,7 +13,7 @@ Using mapped reads in the form of a BAM file, and a text file containing coordin
 - Pandas 2.0.0
 - Numpy 1.26.4
 - Ruptures 1.1.9
-- 
+  
 # Installation
 Download and install the prerequisite packages. Download cryptidEX_main.py
 
