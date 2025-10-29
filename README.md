@@ -29,7 +29,7 @@ Arguments:
 
 Optional arguments:
 -intron_ window  size of coverage window extended into the intron from exon boundary. Default is 100 nt
--exon_ window  size of coverage window extended into the intron from exon boundary. Default is 100 nt
+-exon_ window  size of coverage window extended into the intron from exon boundary. Default is 200 nt
 
 
 ```
