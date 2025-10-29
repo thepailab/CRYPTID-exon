@@ -3,7 +3,6 @@
 import pandas as pd
 import numpy as np
 import ruptures as rpt
-#from itertools import chain # remove later in final script
 import os 
 import argparse
 
@@ -24,12 +23,6 @@ bam=args.bam
 intron_window = args.intron_window
 exon_window = args.exon_window
 outpath=args.output_dir
-
-#print(juncs_file)
-#print(bam)
-#print(intron_window)
-#print(exon_window)
-#print(outpath)
 
 print("importing splice junctions...")
 # import the splice junctions text file 
