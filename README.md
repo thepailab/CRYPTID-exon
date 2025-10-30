@@ -1,8 +1,8 @@
-# CRYPTID-EX
+# CRYPTID-exon
 # Overview
 
-CRYPTID-EX (CRYPTic IDentification of EXons) is a pipeline that predicts putative exon boundaries using the location of splice sites and local changes in read coverage across splice sites from high-throughput short-read RNA sequencing.
-Using mapped reads in the form of a BAM file, and a text file containing coordinates of splice junctions as inputs, CRYPTID-EX follows this workflow:
+CRYPTID-exon (CRYPTic IDentification of exons) is a pipeline that predicts putative exon boundaries using the location of splice sites and local changes in read coverage across splice sites from high-throughput short-read RNA sequencing.
+Using mapped reads in the form of a BAM file, and a text file containing coordinates of splice junctions as inputs, CRYPTID-exon follows this workflow:
 - Screen read coverage across a user-defined window surrounding 3'splice sites and 5' splice sites
 - Predict exon boundaries using points of inflection within the read coverage window
 - Generate a high-confidence list of exons by matching predictions from 3'splice sites and 5' splice sites
