@@ -1,11 +1,11 @@
 # CRYPTID-exon
 # Overview
 
-CRYPTID-exon (CRYPTic IDentification of exons) is a pipeline that predicts putative exon boundaries using the location of splice sites and local changes in read coverage across splice sites from high-throughput short-read RNA sequencing.
-Using mapped reads in the form of a BAM file, and a text file containing coordinates of splice junctions as inputs, CRYPTID-exon follows this workflow:
-- Screen read coverage across a user-defined window surrounding 3'splice sites and 5' splice sites
-- Predict exon boundaries using points of inflection within the read coverage window
-- Generate a high-confidence list of exons by matching predictions from 3'splice sites and 5' splice sites
+CRYPTID-exon (CRYPTic IDentification of exons) is a python framework that predicts exon boundaries using local changes in read coverage in high-throughput short-read RNA-seq data around empirically derived splice sites.
+Using mapped reads (BAM file) and a text file containing coordinates of splice junctions as inputs, CRYPTID-exon proceeds with these steps:
+- Get read coverage within a user-defined window surrounding 3'splice sites and 5' splice sites
+- Obtain putative exon boundaries by predicting changepoints within the read coverage window
+- Generate a list of high-confidence exons by matching predictions from 3'splice sites and 5' splice sites
 
 # Prerequisites (versions used for development)
 - Python 3.11.0
