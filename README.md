@@ -19,7 +19,7 @@ Download and install the prerequisite packages. Download cryptidEX_main.py
 
 # Usage 
 ```
-cryptidEX_main.py -splice_file .csv -bam .bam -output_dir output_path
+cryptidExon_main.py -splice_file .csv -bam .bam -output_dir output_path
 
 Arguments:
 -splice_file Output file from CRYPTID-SS or text file containing splice junctions (.csv). If providing a custom
